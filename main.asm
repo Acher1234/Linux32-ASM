@@ -9,7 +9,7 @@ _print:
     mov ebx,1
     mov eax,4
     int 0x80
-    pop eax
+    pop eax;test
 
 
 section .data
